@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+<title>seventh assignment</title>
+</head>
+<body>
+
+<h1>Calculator</h1>
+
+<div class="main">
+ <table cellspacing="10">
+     <tr>
+         <td>
+            <input id="display" class= "display" type="text"><br><br>
+            <button onclick="cleardata()">C</button>
+             <button onclick="square()">√x</button>
+             <button onclick="GetNumber('/')">÷</button>
+             <button onclick="GetNumber('*')">×</button>
+         </td>
+        </tr>
+         <tr>
+         <td>
+            <button onclick="GetNumber('7')">7</button>
+            <button onclick="GetNumber('8')">8</button>
+            <button onclick="GetNumber('9')">9</button>
+            <button onclick="GetNumber('-')">-</button>
+        </td>
+         </tr>
+         <tr>
+        <td>
+            <button onclick="GetNumber('4')">4</button>
+            <button onclick="GetNumber('5')" >5</button>
+            <button onclick="GetNumber('6')">6</button>
+            <button onclick="GetNumber('+')" >+</button>
+        </td>
+        </tr>
+        <tr>
+        <td>
+            <button onclick="GetNumber('1')">1</button>
+            <button onclick="GetNumber('2')" >2</button>
+            <button onclick="GetNumber('3')">3</button>
+            <button onclick="GetNumber('.')">.</button>
+        </td>
+     </tr>
+     <tr>
+        <td>
+            <button onclick="GetNumber('0')">0</button>
+            <button class="equal" style="width:72%" onclick="getResult()">=</button>
+        </td>
+     </tr>
+ </table>
+    
+</body>
+<script src="style.js"></script>
+</html>
